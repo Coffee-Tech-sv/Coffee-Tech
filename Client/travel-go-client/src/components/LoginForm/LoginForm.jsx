@@ -56,7 +56,7 @@ const LoginForm = () => {
         aria-invalid={errors.email ? "true" : "false"}
         innerRef={{...register("email", { required: true, pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/i }) }}
         validation={errors.email}
-        placeholder={"e.g. hellotravelgo@hotmail.com"}
+        placeholder={"e.g. coffeetech@hotmail.com"}
         icon={<Person />}
         type={"email"}
       >

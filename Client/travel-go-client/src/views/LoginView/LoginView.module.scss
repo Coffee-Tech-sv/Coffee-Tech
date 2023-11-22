@@ -1,7 +1,8 @@
 @import "./../../mixins";
+$background-image: url('../../assets/hero-compress.png');
 
 .Login {
-  background-color: #fedfb1;
+  background-image: $background-image;
   min-height: 100vh;
   color: $text3;
   
@@ -64,19 +65,7 @@
       padding: 2.5rem;
     }
 
-    &::before {
-      content: "";
-      position: fixed;
-      top: 0;
-      right: 50%;
-      left: 50%;
-      width: 80%;
-      max-width: 100rem;
-      aspect-ratio: 1/1;
-      background-color: $text3;
-      border-radius: 50%;
-      transform: translate(-50%, -50%);
-    }
+  
   }
 
   @include media-breakpoint-up($screen-md) {

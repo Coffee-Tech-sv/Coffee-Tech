@@ -1,4 +1,5 @@
 import classes from "./LoginView.module.scss";
+import logo from "../../assets/coffeeTech-long.png"
 import LoginForm from "../../components/LoginForm/LoginForm";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowLeft } from "react-bootstrap-icons";
@@ -27,7 +28,7 @@ const LoginView = () => {
           Regresar a inicio
         </Link>
         
-        <h2>Iniciar sesión</h2>
+        <img src={logo} alt="" aria-hidden="true" />
         <p>Inicie sesión para continuar</p>
         <LoginForm />
         

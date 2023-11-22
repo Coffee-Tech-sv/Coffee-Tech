@@ -36,7 +36,7 @@
 
     Button {
       width: calc(33.33% - 1rem); // Ajusta el ancho de los botones según la cantidad por fila
-      background-color: purple;
+      background-color: #5658FF;
       color: white;
 
       &:nth-child(3n + 1) {
