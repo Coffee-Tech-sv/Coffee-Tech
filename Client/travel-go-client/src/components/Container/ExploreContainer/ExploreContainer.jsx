@@ -1,6 +1,6 @@
 import classes from "./ExploreContainer.module.scss";
 
-import cameraPic from "./../../../assets/camera.png";
+import menuPic from "./../../../assets/12.png";
 
 const ExploreContainer = ({ children }) => {
   return (
@@ -8,7 +8,7 @@ const ExploreContainer = ({ children }) => {
       <div className={classes["ExploreContainer__content"]}>
         <div>
           <div className={classes["ExploreContainer__mockup"]}>
-            <img src={cameraPic} alt="" aria-hidden="true" />
+            <img src={menuPic} alt="" aria-hidden="true" />
           </div>
         </div>
         <div>{children}</div>

@@ -3,16 +3,14 @@ import Button from "../../components/Button/Button";
 import LandingInformation from "../../components/Container/LandingContainer/LandingInformation/LandingInformation";
 import CategoryContainer from "../../components/Container/LandingContainer/CategoryContainer/CategoryContainer";
 import FeatureContainer from "../../components/Container/LandingContainer/FeatureContainer/FeatureContainer";
-import ExploreContainer from "../../components/Container/ExploreContainer/ExploreContainer";
+import MenuContainer from "../../components/Container/ExploreContainer/ExploreContainer";
 import Container from "../../components/Container/Container";
 import Place from "../../components/Trips/Places/Places";
-import SandMobile from "./../../assets/bg-sand-mobile.png";
-import SandDesktop from "./../../assets/bg-sand-desktop.png";
-import Woman from "./../../assets/woman.svg";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import Avatar from "../../assets/hero-pic.png"
 import axios from 'axios';
-import { Binoculars } from "react-bootstrap-icons";
+import { ArrowBarRight } from "react-bootstrap-icons";
 import { useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 import { randomPlace } from "../../services/placeServer";
@@ -53,33 +51,19 @@ const LandingView = () => {
           <Container>
             <div className={classes["LandingContainer__content-text"]}>
               <h1>
-                Let's find your <span>Adventure</span>
+                Explora el lado <span>TECH</span> de la vida
               </h1>
               <p>
-                Descubre lugares mágicos en El Salvador, un paraíso tropical completamente 
-                secreto en medio de junglas de concreto.
+                Ven a nuestros espacios, sal de tu rutina de siempre. Ponte cómodo en nuestras salas y disfruta de un buen snack para alegrarte.
               </p>
               <Button modifierClass="Button--white" onClick={onClickHandler}>
-                Explora un trip mágico
-                <Binoculars/>
+                Conoce tu cafetería
+                <ArrowBarRight/>
               </Button>
             </div>
             <div className={classes["LandingContainer__content-image"]}>
-              <img
-                src={Woman}
-                className={classes["woman"]}
-                alt=""
-                aria-hidden="true"
-              />
-              <picture>
-                <source srcSet={SandDesktop} media="(min-width: 62em)" />
-                <img
-                  src={SandMobile}
-                  className={classes["sand"]}
-                  alt=""
-                  aria-hidden="true"
-                />
-              </picture>
+              
+             
             </div>
           </Container>
         </div>
@@ -89,22 +73,19 @@ const LandingView = () => {
           <FeatureContainer />
           <CategoryContainer />
 
-          <ExploreContainer>
-            <h2>Destinos hechos solo para ti</h2>
+          <MenuContainer>
+            <h2>Menú de Comida</h2>
             <p>
-              Sabemos que te encanta la aventura, y que descubir un solo lugar no te puede conformar o llenar. Es por eso que hemos creado una selección de multitrips especialmente para ti.</p> 
-            <p> Explora montañas, rios y lagunas mientras disfutas de las playas y practicas tus actividades favoritas, en un mismo trip, a un mejor precio.</p>
-            <Button modifierClass="Button--purple" onClick={onClickHandler}>
-              Explora un trip mágico
-              <Binoculars />
-            </Button>
+              Sabemos que te encanta disfrutar de un buen snack mientras ejercitas tu mente o necesitar pensar. Es por eso que hemos creado una selección de comida especialmente para ti.</p> 
+            <p> Explora nuestra variedad de platillos que puedes ingresar a las salas de trabajo a un buen precio.</p>
+          
+              
             
-          </ExploreContainer>
+          </MenuContainer>
 
           <Place trips={trips} />
         </Container>
       </main>
-      <Footer />
     </>
   );
 };

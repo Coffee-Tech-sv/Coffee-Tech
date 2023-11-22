@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import classes from "./Header.module.scss";
-import logo from "../../assets/logo_light-mode.svg";
+import logo from "../../assets/coffeeTech-long.png";
 import Navbar from "./Navbar/Navbar";
 import ButtonLink from "../Button/ButtonLink/ButtonLink";
 import Container from "../Container/Container";

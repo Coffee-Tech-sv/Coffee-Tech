@@ -1,11 +1,10 @@
 import classes from "./FeatureContainer.module.scss";
 import Button from "./../../../Button/Button";
 import mockup from "./../../../../assets/shape.svg";
-import chill from "./../../../../assets/chill.png";
-import relax from "./../../../../assets/relax.png";
-import share from "./../../../../assets/share.png";
-import explore from "./../../../../assets/explore.png";
-import {Flower1} from "react-bootstrap-icons";
+import work from "./../../../../assets/3.png";
+import study from "./../../../../assets/11.png";
+import food from "./../../../../assets/16.png";
+import learn from "./../../../../assets/13.png";
 
 
 const FeatureContainer = () => {
@@ -16,11 +15,10 @@ const FeatureContainer = () => {
       </div>
       <div className={classes["FeatureContainer__title"]}>
 
-        <h2>Go solo,
-        and enjoy 
-        your time.</h2>
+        <h2>Nuestros
+        Servicios </h2>
 
-        <p> Descubrí las maravillas que te ofrece tu trip, un paso a la vez. Durante tu estadía en un lugar, conocerás a profundidad lo que tiene que ofrecerte, sin preocuparte, solo disfrutando de tu tiempo en ese lugar.</p>
+        <p> Sientete cómodo y concentrado en tu propio espacio de trabajo, acompañado de un buen ambiente y deliciosa comida, todo en un solo lugar.</p>
       </div>
     
       <div className={classes["FeatureContainer__content"]}>
@@ -29,42 +27,42 @@ const FeatureContainer = () => {
 
           <div className={classes["FeatureContainer__card"]}>
               <div className={classes["FeatureContainer__pic"]}>
-                  <img src={chill} alt="" aria-hidden="true"/>
+                  <img src={work} alt="" aria-hidden="true"/>
               </div> 
 
             <div className={classes["FeatureContainer__text-card"]}>
-              <h2>Chill</h2>
-            <p>Disfruta de tu trip</p>
+              <h2>Trabaja</h2>
+            <p>Por tu cuenta o con amigos</p>
             </div>
           </div>
 
           <div className={classes["FeatureContainer__card"]}>
             <div className={classes["FeatureContainer__pic"]}>
-              <img src={share} alt="" aria-hidden="true"/>          
+              <img src={food} alt="" aria-hidden="true"/>          
             </div> 
             <div className={classes["FeatureContainer__text-card"]}>
-              <h2>Comparte</h2>
-              <p>con tus amigos</p>
+              <h2>Disfruta</h2>
+              <p>nuestra deliciosa comida</p>
             </div>
           </div>
 
           <div className={classes["FeatureContainer__card"]}>
             <div className={classes["FeatureContainer__pic"]}>
-              <img src={relax} alt="" aria-hidden="true"/>          
+              <img src={study} alt="" aria-hidden="true"/>          
             </div> 
             <div className={classes["FeatureContainer__text-card"]}>
-              <h2>Relax</h2>
-              <p>No pienses en nada más</p>
+              <h2>Estudia</h2>
+              <p>con mayor comodidad</p>
             </div>
           </div>
 
           <div className={classes["FeatureContainer__card"]}> 
             <div className={classes["FeatureContainer__pic"]}>
-              <img src={explore} alt="" aria-hidden="true"/> 
+              <img src={learn} alt="" aria-hidden="true"/> 
             </div> 
             <div className={classes["FeatureContainer__text-card"]}>
-              <h2>Explora</h2>
-              <p>Encuentra tu aventura</p>
+              <h2>Amplia</h2>
+              <p>tus conocimientos</p>
             </div>
           </div>
        </div>
@@ -75,8 +73,8 @@ const FeatureContainer = () => {
             <Button modifierClass="Button--baby_blue"><p>%</p></Button>
           </div>
             <div className={classes["FeatureContainer__text"]}>
-          <h2>Cuidamos tus bolsillo</h2>
-          <p>Los precios están pensados para ser accesibles para cualquier viajero, buscamos acercarte cada vez más a tu trip ideal, sin tener que sacrificar gran parte de tu presupuesto.</p>
+          <h2>Pensamos en tu comodidad</h2>
+          <p> Nuestras salas están pensadas para ser accesibles para cualquier tipo de trabajo que desees hacer, ya sea por tu cuenta o en grupo.</p>
           </div>
           </div>
           <div className={classes["FeatureContainer__info"]}>
@@ -84,8 +82,8 @@ const FeatureContainer = () => {
             <Button modifierClass="Button--cute_pink"><p>🞖</p></Button>
           </div>
             <div className={classes["FeatureContainer__text"]}>
-          <h2>Lugares mágicos</h2>
-          <p>Cada lugar es cuidadosamente seleccionado pór nuestro equipo, por lo que cada vez que escojas tu trip, te llevarás un lugar secreto que guarda El Salvador</p>
+          <h2>Excelente ambiente</h2>
+          <p>Contamos con un ambiente agradable y dinámico para que puedas adaptarte al trabajo grupal o en solitario mientras también disfrutas de nuestros otros servicios de cafeteria.</p>
           </div>
           </div>
           <div className={classes["FeatureContainer__info"]}>
@@ -94,7 +92,7 @@ const FeatureContainer = () => {
           </div>
             <div className={classes["FeatureContainer__text"]}>
           <h2>Cuidamos tus bolsillo</h2>
-          <p>Los precios están pensados para ser accesibles para cualquier viajero, buscamos acercarte cada vez más a tu trip ideal, sin tener que sacrificar gran parte de tu presupuesto.</p>
+          <p>Los precios están pensados para ser accesibles para cualquier persona, buscamos ofrecerte cada vez más a tu espacio ideal de trabajo, sin tener que sacrificar gran parte de tu presupuesto.</p>
           </div>
           </div>
 

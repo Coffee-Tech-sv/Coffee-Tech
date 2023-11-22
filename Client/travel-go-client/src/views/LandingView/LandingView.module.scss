@@ -4,6 +4,7 @@
   position: relative;
   overflow-x: hidden;
   padding: 1rem;
+  background: "./../../../../assets/hero-compress.png";
 
   &__content {
     height: 100vh;
@@ -16,10 +17,6 @@
       align-items: center;
       padding-inline: 1rem;
       text-align: center;
-    }
-
-    .woman {
-      display: none;
     }
 
     p {
@@ -38,7 +35,6 @@
       left: -3rem;
       height: 19.5rem;
       width: 18.5rem;
-      background: url("./../../assets/group-leaf.svg") 0 0 repeat;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: left bottom;
@@ -52,7 +48,6 @@
       right: -4rem;
       height: 9.5rem;
       width: 7.5rem;
-      background: url("./../../assets/leaf.svg") 0 0 repeat;
       background-size: cover;
       background-repeat: no-repeat;
       transform: rotate(237deg);
@@ -60,26 +55,19 @@
     }
   }
 
-  .sand {
-    position: absolute;
-    bottom: 0;
-    right: -3rem;
-    height: 50vh;
-    max-height: 62.5rem;
-    z-index: -50;
-    background-size: cover;
-  }
 
   h1 {
     font-size: 1.87rem;
     font-family: "IBM Plex Serif";
     font-weight: 400;
+    padding: 1rem;
 
     > span {
       text-transform: uppercase;
       font-size: 2rem;
       font-weight: 400;
-
+      padding: 1rem;
+      margin-top: 1rem;
       font-family: "Concert One";
     }
   }
@@ -124,6 +112,7 @@
 
     &__content {
       max-height: 62.5rem;
+      
 
       > div {
         text-align: left;
@@ -154,20 +143,9 @@
         width: 20.5rem;
       }
 
-      .woman {
-        height: 80vh;
-        max-height: 45rem;
-        z-index: 10;
-        align-self: normal;
-        display: block;
-        justify-self: auto;
-      }
+      
     }
 
-    .sand {
-      height: 100vh;
-      top: 0;
-      right: -3rem;
-    }
+    
   }
 }

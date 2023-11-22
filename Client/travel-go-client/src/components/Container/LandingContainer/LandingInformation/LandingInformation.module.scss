@@ -1,6 +1,25 @@
 @import "./../../../../mixins";
 
 .LandingInformation {
+
+
+  text-align: center;
+
+  display: flex;
+  justify-content: space-between;  // Añade esto para separar los dos divs
+  align-items: center; // Añade esto para centrar verticalmente
+
+  .left-content {
+    flex: 1;
+    margin-right: 2rem;
+  }
+
+  .right-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
   padding-block: 4.25rem;
 
   &__title {
@@ -15,10 +34,12 @@
       font-weight: 500;
       margin-block: 1rem;
       font-size: 1.875rem;
+      color: purple;
     }
 
     p {
       font-size: 1.5rem;
+      padding: 0.5rem;
     }
   }
 
