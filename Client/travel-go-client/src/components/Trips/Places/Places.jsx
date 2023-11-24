@@ -19,7 +19,7 @@ const Places = ({ trips = [] }) => {
       <h2 className="sr-only">Lista de salas disponibles</h2>
       <div className={classes["Places__container"]}>
         {trips && trips.length > 0 ? mappedPlaces : (
-          <p>No hay salas disponibles</p>
+          <p>No hay servicios disponibles</p>
         )}
       </div>
     </section>

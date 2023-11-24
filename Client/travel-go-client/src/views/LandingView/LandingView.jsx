@@ -70,7 +70,7 @@ const LandingView = () => {
           <MenuContainer>
             <h2>Menú de Comida</h2>
             <p>Sabemos que te encanta disfrutar de un buen snack mientras ejercitas tu mente o necesitar pensar. Es por eso que hemos creado una selección de comida especialmente para ti.</p> 
-            <p> xplora nuestra variedad de platillos que puedes ingresar a las salas de trabajo a un buen precio.</p>
+            <p> Explora nuestra variedad de platillos que puedes ingresar a las salas de trabajo a un buen precio.</p>
             
           </MenuContainer>
 

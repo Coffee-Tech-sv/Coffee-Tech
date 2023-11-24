@@ -3,14 +3,24 @@
 .CategoryContainer {
   margin-block: 4.375rem;
   min-height: fit-content;
+  display: flex;
+
+
 
   &__title {
-    padding: 2rem;
+    padding: 3rem;
     text-align: center;
 
     display: flex;
     align-items: center;
+    
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      font-weight: 700;      
+      color: #130f49;
 
+    }
     .img-container {
       margin-left: 1rem; // Espacio entre el título y la imagen
       img {
@@ -18,14 +28,14 @@
         height: auto;
       }
 
-    h2 {
-      font-family: 'IBM Plex Serif';
-      font-size: 1.6rem;
-      margin-bottom: 2rem;
-      font-weight: 500;
-    }
+    
+
+   
+
   }
 }
+
+
 
   &__categories {
     display: flex;
