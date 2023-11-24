@@ -1,9 +1,12 @@
 @import "./../../mixins";
-$background-image: url('../../assets/hero-compress.png');
+$background-image: url('../../assets/signup-compress.png');
 
 .Login {
   background-image: $background-image;
+  background-repeat: no-repeat;
   min-height: 100vh;
+  background-size: cover;
+  background-position: center;
   color: $text3;
   
   a {

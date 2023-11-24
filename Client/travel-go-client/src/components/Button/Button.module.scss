@@ -30,12 +30,16 @@
   &--purple {
     background-color: $accent-majorelle-blue;
     border-color: $accent-majorelle-blue;
+    width: -webkit-fill-available;
+
   }
 
   &--white {
     background-color:$dominant;
     border-color: $text3;
     color: $text3;
+/*     width: -webkit-fill-available;
+ */
   }
 
   &--blue {

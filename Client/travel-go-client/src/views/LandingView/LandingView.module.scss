@@ -1,65 +1,51 @@
 @import "./../../mixins";
+$background-image: url('../../assets/hero-compress.png');
 
 .LandingContainer {
-  position: relative;
-  overflow-x: hidden;
-  padding: 1rem;
-  background: "./../../../../assets/hero-compress.png";
+
 
   &__content {
     height: 100vh;
     position: relative;
 
     > div {
-      height: 100%;
+      background-image: $background-image;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      max-width: 100rem;
+
+      height: 100vh;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
-      padding-inline: 1rem;
       text-align: center;
+
     }
 
     p {
       font-size: 1rem;
-      margin-block: 2rem;
+      margin-block: 1rem;
+      justify-content: center;
+      align-items: center;
+      padding-inline: 1rem;
+      text-align: center;
+      //color: white;
+
+
     }
 
     button {
       font-size: 0.9rem;
     }
 
-    &::before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: -3rem;
-      height: 19.5rem;
-      width: 18.5rem;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: left bottom;
-      z-index: -1;
-    }
-
-    &::after {
-      content: "";
-      position: absolute;
-      top: -3rem;
-      right: -4rem;
-      height: 9.5rem;
-      width: 7.5rem;
-      background-size: cover;
-      background-repeat: no-repeat;
-      transform: rotate(237deg);
-      z-index: 0;
-    }
   }
-
 
   h1 {
     font-size: 1.87rem;
-    font-family: "IBM Plex Serif";
+    font-family: var(display-font);
     font-weight: 400;
+    text-align: center;
     padding: 1rem;
 
     > span {
@@ -73,7 +59,6 @@
   }
 
   @include media-breakpoint-up($screen-sm) {
-    padding: 0 1.5rem 3.5rem;
 
     h1 {
       font-size: 3.225rem;
@@ -85,9 +70,7 @@
     }
 
     &__content {
-      text-align: left;
-      padding-top: 5.313rem;
-
+      text-align: center;
       p {
         font-size: 1.4rem;
       }
@@ -95,7 +78,6 @@
   }
 
   @include media-breakpoint-up($screen-lg) {
-    padding-inline: 3rem;
 
     h1 {
       font-size: 5.225rem;
@@ -115,7 +97,7 @@
       
 
       > div {
-        text-align: left;
+        text-align: center;
       }
 
       &-text {
@@ -124,26 +106,11 @@
 
       p {
         font-size: 1.4rem;
-        max-width: 31.938rem;
       }
 
       &-image {
         display: block;
-      }
-
-      &::before {
-        height: 23.625rem;
-        width: 36.063rem;
-      }
-
-      &::after {
-        top: -13rem;
-        right: -10rem;
-        height: 24.5rem;
-        width: 20.5rem;
-      }
-
-      
+      } 
     }
 
     

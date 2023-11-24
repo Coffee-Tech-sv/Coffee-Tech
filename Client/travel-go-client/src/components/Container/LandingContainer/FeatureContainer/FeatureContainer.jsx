@@ -7,6 +7,7 @@ import food from "./../../../../assets/16.png";
 import learn from "./../../../../assets/13.png";
 
 
+
 const FeatureContainer = () => {
   return (
     <section className={classes["FeatureContainer"]}>
@@ -70,7 +71,7 @@ const FeatureContainer = () => {
        <div className={classes["FeatureContainer__feature"]}>
           <div className={classes["FeatureContainer__info"]}>
             <div className={classes["FeatureContainer__icon"]}>
-            <Button modifierClass="Button--baby_blue"><p>%</p></Button>
+            <Button modifierClass="Button--baby_blue"><p>📚</p></Button>
           </div>
             <div className={classes["FeatureContainer__text"]}>
           <h2>Pensamos en tu comodidad</h2>
@@ -79,7 +80,7 @@ const FeatureContainer = () => {
           </div>
           <div className={classes["FeatureContainer__info"]}>
             <div className={classes["FeatureContainer__icon"]}>
-            <Button modifierClass="Button--cute_pink"><p>🞖</p></Button>
+            <Button modifierClass="Button--cute_pink"><p>💻</p></Button>
           </div>
             <div className={classes["FeatureContainer__text"]}>
           <h2>Excelente ambiente</h2>
@@ -88,7 +89,7 @@ const FeatureContainer = () => {
           </div>
           <div className={classes["FeatureContainer__info"]}>
             <div className={classes["FeatureContainer__icon"]}>
-            <Button modifierClass="Button--light_yellow"><p>❤</p></Button>
+            <Button modifierClass="Button--light_yellow"><p>💸</p></Button>
           </div>
             <div className={classes["FeatureContainer__text"]}>
           <h2>Cuidamos tus bolsillo</h2>
@@ -99,16 +100,6 @@ const FeatureContainer = () => {
         </div>
        </div>
 
-
-
-
-
-
-     
-
-        
-
-  
 </section>
   );
 };

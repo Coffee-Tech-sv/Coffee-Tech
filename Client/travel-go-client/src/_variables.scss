@@ -3,9 +3,10 @@ IBM Plex Serif para headlines
 Source Sans Pro para body, label y tittles */
 
 //Font families
-$display-font: 'Concert One', cursive;
-$headlines-font: 'IBM Plex Serif', serif;
-$body-label-tittle-font: 'Source Sans Pro', sans-serif;
+$display-font: 'Montserrat', sans-serif;
+$headlines-font: 'Montserrat', sans-serif;
+$body-label-tittle-font: 'Inter', sans-serif;
+
 
 // Breakpoints
 $screen-sm: 36em;       //576px Large smartphones
@@ -13,6 +14,7 @@ $screen-md: 48em;       //768px Small tablets
 $screen-lg: 62em;       //992px Tablets
 $screen-xl: 75em;       //1200px Desktops
 $screen-xxl: 87.5em;    //1400px Large desktops
+
 
 //Font colors
 $text1: #000000;
@@ -30,7 +32,7 @@ $accent-baby-blue: #CCE8FD;
 $accent-blush-pink: #DE5A75;
 $accent-cute-pink: #F5ADAE;
 $accent-cadet-grey: #8DABAC;
-$accent-majorelle-blue: #6C5CE7;
+$accent-majorelle-blue: #5658FF;
 
 //Shadow
 $shadow1: (0 0.25rem 0.313rem 0.313rem rgba(0, 0, 0, 0.05));

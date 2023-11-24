@@ -2,6 +2,7 @@ import classes from "./CategoryContainer.module.scss";
 import Button from "./../../../Button/Button";
 import cowork from "./../../../../assets/4.png";
 
+
 import {Camera, Water,Sun,Tsunami,Map,Tree,CupStraw,Sunset} from "react-bootstrap-icons";
 
 
@@ -20,7 +21,7 @@ const CategoryContainer = () => {
       </div>
       <div className={classes["CategoryContainer__categories"]}>
        
-        <Button modifierClass={"Button--white"}><Map/>Reserva tu sala de estudio</Button>
+        <Button modifierClass={"Button--white"}>Reserva tu sala de estudio</Button>
        
       
       </div>

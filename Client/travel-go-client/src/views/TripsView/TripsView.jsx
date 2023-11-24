@@ -7,7 +7,7 @@ import NotFoundView from "../NotFoundView/NotFoundView";
 import FavoriteTripsView from "../FavoriteTripsView/FavoriteTripsView";
 import AllTripsView from "../AllTripsView/AllTripsView";
 
-import { Binoculars, HeartFill } from "react-bootstrap-icons";
+import { HeartFill } from "react-bootstrap-icons";
 import { Route, Routes } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { randomPlace } from "../../services/placeServer";
@@ -28,21 +28,7 @@ const TripsView = ({ className, ...rest }) => {
     <>
       <Header />
       <main className={classes["TripsView"]}>
-        <ul className={classes["TripsView__tabs"]}>
-          <li>
-            <NavLink to="/trips" className={classes["TripsView__item"]}>
-              Todos
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/trips/favorite"
-              className={classes["TripsView__item"]}
-            >
-              Favoritos
-            </NavLink>
-          </li>
-        </ul>
+      
 
         <Routes>
           <Route path="" element={<AllTripsView />} />
@@ -51,30 +37,19 @@ const TripsView = ({ className, ...rest }) => {
 
         <ExploreContainer>
           <h2>
-            Destinos hechos con{" "}
+            Salas pensados solo para ti {" "}
             <span>
               <HeartFill
                 className={classes["TripsView__heart"]}
                 fill="#FF5A5F"
               />
             </span>{" "}
-            para ti.
+      
           </h2>
 
-          <p>
-            Sabemos que te encanta la aventura, y que descubir un solo lugar no
-            te puede conformar o llenar. Es por eso que hemos creado una
-            selección de multitrips especialmente para ti.
-          </p>
-          <p>
-            Explora montañas, rios y lagunas mientras disfutas de las playas y
-            practicas tus actividades favoritas, en un mismo trip, a un mejor
-            precio.
-          </p>
-          <Button modifierClass="Button--purple" onClick={onClickHandler}>
-            Explore a hidden trip
-            <Binoculars />
-          </Button>
+          <p>¡Descubre nuestro innovador espacio de coworking diseñado para potenciar tu creatividad y productividad! Nuestra sala de coworking ofrece un ambiente moderno y colaborativo, equipado con las comodidades esenciales para tu jornada laboral.</p>
+          <p>Disfruta de estaciones de trabajo ergonómicas, acceso rápido a internet, y salas de reuniones para impulsar la colaboración. ¡Únete a nosotros y transforma tu experiencia laboral!</p>
+          <Button modifierClass="Button--purple" onClick={onClickHandler}>Reservar sala</Button>
         </ExploreContainer>
       </main>
       <FooterAttribution />
