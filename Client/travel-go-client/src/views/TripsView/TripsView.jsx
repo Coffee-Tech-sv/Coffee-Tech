@@ -46,7 +46,6 @@ const TripsView = ({ className, ...rest }) => {
 
         <Routes>
           <Route path="" element={<AllTripsView />} />
-          <Route path="/favorite" element={<FavoriteTripsView />} />
           <Route path="*" element={<NotFoundView />} />
         </Routes>
 

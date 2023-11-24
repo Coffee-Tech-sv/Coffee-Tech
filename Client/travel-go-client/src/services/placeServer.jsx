@@ -29,26 +29,10 @@ export const commentsAPI = (_id)=>{
     
     useEffect(()=>{
         //obtenemos comentarios
-        fetchComments();
         fetchSavedPlace();
     }, [_id]);
 
-    const fetchComments = async()=>{
-        if(!place_id)
-            return;
-        startLoading();
-        try{
-            const {data} = await axios.get(`/place_comment/${place_id}`);
-            setComments(data);
-        }
-        catch(error){
-            toast.error("Error inesperado");
-            navigateTo("/");
-        }
-        finally{
-            stopLoading();
-        }
-    }
+   
        
     const fetchSavedPlace = async()=>{
         if(!_id || !token || token === "null") return;
@@ -67,7 +51,7 @@ export const commentsAPI = (_id)=>{
             toast.error("Error en favoritos");
         }
     }
-    return {comments, setComments, fetchComments, saved};
+    return {comments, setComments, saved};
 }
 
 

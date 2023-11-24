@@ -9,7 +9,7 @@ const ImgContainer = ({urlImgs = []})=>{
             <Zoom>
                 <img 
                     src={urlImg} 
-                    alt="Imagen de lugar turistico"
+                    alt="Imagen de sala de trabajo"
                 />
             </Zoom>
             </div>

@@ -33,16 +33,12 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/Compra" element={<PDFR />} />
       <Route path="/" element={<LandingView />} />
       <Route path="/login" element={<LoginView />} />
       <Route path="/register" element={<SignupView />} />
       <Route path="/place/:placeId" element={<PlaceView />} />
       <Route path="/cart" element={<ShoppingCartView />} />
-      <Route path="/terms-of-service" element={<TermsOfServiceView />} />
-      <Route path="/privacy-policy" element={<PrivacyPolicyView />} />
       <Route path="/trips/*" element={<TripsView />} />
-      <Route path="/about" element={<AboutUsView />} />
       <Route path="*" element={<NotFoundView />} />
 
       {user && user.roles.includes("admin") && (

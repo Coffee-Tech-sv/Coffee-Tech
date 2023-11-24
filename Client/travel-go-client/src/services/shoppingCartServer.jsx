@@ -30,7 +30,7 @@ export const shoppingCartApi = ()=>{
                     Authorization: `${R} ${token}`
                 }
             });
-            toast.success("Gracias por su compra");
+            toast.success("Gracias por tu reserva");
 
         }
         catch(error){
@@ -54,7 +54,7 @@ export const shoppingCartApi = ()=>{
                     Authorization: `${R} ${token}`
                 }
             });
-            toast.success("Gracias por su compra");
+            toast.success("Gracias por su reserva");
 
         }
         catch(error){
