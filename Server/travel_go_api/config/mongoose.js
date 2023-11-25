@@ -5,8 +5,8 @@ require("dotenv").config();
 //conexion a api //mongodb://host:port/name
 const dbhost = process.env.DBHOST || "localhost";
 const dbport = process.env.DBPORT || "27017";
-const dbname = process.env.DBNAME || "travelgo";
-const dburi = process.env.DBURI || `mongodb://${dbhost}:${dbport}/${dbname}`;
+const dbname = process.env.DBNAME || "coffetech";
+const dburi = process.env.MONGODB_URL || `mongodb://${dbhost}:${dbport}/${dbname}`;
 
 const connect = async()=>{
     try{
