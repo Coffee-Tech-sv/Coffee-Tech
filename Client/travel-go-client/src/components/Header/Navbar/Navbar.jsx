@@ -12,8 +12,8 @@ const Navbar = () => {
     <nav className={`${classes["Navbar"]} ${isMenuOpen ? classes["Navbar--open"] : ""}`}>
       <ul className={classes["Navbar__list"]}>
         <NavLink to="/" exact>Inicio</NavLink>
-        <NavLink to="/trips">Salas</NavLink>
-        <NavLink to="/about">Reservar</NavLink>
+        <NavLink to="/trips/">Salas</NavLink>
+        <NavLink to="/place/:placeId">Reservar</NavLink>
       </ul>
       <button className={classes["Navbar__toggle-button"]} onClick={toggleMenu}>
         <List />

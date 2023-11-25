@@ -49,7 +49,9 @@ const TripsView = ({ className, ...rest }) => {
 
           <p>¡Descubre nuestro innovador espacio de coworking diseñado para potenciar tu creatividad y productividad! Nuestra sala de coworking ofrece un ambiente moderno y colaborativo, equipado con las comodidades esenciales para tu jornada laboral.</p>
           <p>Disfruta de estaciones de trabajo ergonómicas, acceso rápido a internet, y salas de reuniones para impulsar la colaboración.</p>
+          <NavLink to="/place/:placeId">
           <Button modifierClass="Button--purple" onClick={onClickHandler}>Reservar sala</Button>
+          </NavLink>
         </ExploreContainer>
       </main>
       <FooterAttribution />

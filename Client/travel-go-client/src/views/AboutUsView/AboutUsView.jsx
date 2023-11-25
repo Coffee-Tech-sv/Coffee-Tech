@@ -28,13 +28,7 @@ const AboutUsView = ({ className, ...rest }) => {
 
               <b><span>Quienes somos</span></b>
               <br></br>
-              Somos un grupo de estudiantes de ingenieria informática de la Universidad Jose Simeon
-              Cañas, UCA. Actualmente estamos  cursando la materia de Web Devolpment, nos hemos unido para crear una aplicación web que
-              permita a los usuarios encontrar lugares turísticos en El
-              Salvador. 
-              Esta aplicación fue creada con el fin de ayudar a los
-              usuarios a encontrar lugares turísticos en El Salvador, y
-              brindarles información sobre estos lugares.
+              En Coffee Tech, nos enorgullece ser pioneros en la creación de soluciones innovadoras para mejorar la experiencia de trabajo y estudio en espacios compartidos. Somos un equipo apasionado de profesionales dedicados a brindar servicios de calidad que se adaptan a las necesidades cambiantes de nuestros usuarios. Nuestra visión es crear un entorno acogedor y productivo donde la comunidad pueda disfrutar de espacios de coworking modernos y servicios de cafetería de alta calidad. En Coffee Tech, nos esforzamos por fomentar la colaboración, la productividad y el bienestar en un ambiente inspirador.
               </p>
                 <div className={classes["AboutUs__pic"]}>
                   <img src={intro} alt="" aria-hidden="true"/>
@@ -47,14 +41,14 @@ const AboutUsView = ({ className, ...rest }) => {
                 <div className={classes["AboutUs__mision"]}>
                 <b><span>Misión</span></b>
                 <br></br>
-                <p>Buscamos generar un impacto social a través del  turismo, nuestro objetivo principal es incrementar la actividad turística en la región, así como poner en el mapa los lugares mágicos y poco concurridos de El Salvador, promoviendo el turismo nacional y generando empleos directos e indirectos.
+                <p>Buscamos generar un impacto para los estudiantes con espacios innovadores y cómodos, nuestro objetivo principal es incrementar los espacios de estudio en zonas universitarias, promoviendo el consumo local y generando empleos directos e indirectos.
 
                 </p>
                 </div>
                 <div className={classes["AboutUs__vision"]}>
                 <b><span>Vísion</span></b>
                 <br></br>
-                <p>Creemos que te mereces una experiencia de viaje completa, es por eso que cada  trip es cuidadosamente armado para tu completo disfute. Ten por seguro que en cada aventura que escojas podrás apreciar el legado cultural de los pueblos salvadoreños, su riqueza naturas y sus tradiciones, ser parte del consumir local miestras practicas el ecoturismo.
+                <p>Creemos que te mereces una experiencia trabajo propia, es por eso que cada espacio es cuidadosamente armado para tu completo disfute. Ten por seguro que en cada espacio de trabajo que escojas podrás sentirte cómodo, dandote un mejor rendimiento en tu trabajo, mientras eres parte del consumir local.
                 </p>
                 </div>
               </div>
@@ -122,7 +116,7 @@ const AboutUsView = ({ className, ...rest }) => {
               <div className={classes["AboutUs__github"]}>
                 <div className={classes["AboutUs__info"]}>
                 <h1 className={classes["AboutUs__title"]}>¿Quieres saber más de nosotrsos?</h1>   
-                <p>Si te interesa conocer más acerca de lo que hacemos y de como funciona TRAVELGO, puedes visitar nuestros respositorios de GitHub. Si te interesa conocer más acerca de lo que hacemos y de como funciona TRAVELGO, puedes visitar nuestros respositorios de GitHub. Si te interesa conocer más acerca de lo que hacemos 
+                <p>Si te interesa conocer más acerca de lo que hacemos y de como funciona Coffe Tech, puedes visitar nuestros respositorios de GitHub. Si te interesa conocer más acerca de lo que hacemos y de como funciona Coffe Tech, puedes visitar nuestros respositorios de GitHub. Si te interesa conocer más acerca de lo que hacemos 
                 </p>
                 </div>
                 <div className={classes["AboutUs__repos"]}>
@@ -142,8 +136,8 @@ const AboutUsView = ({ className, ...rest }) => {
                   <Button modifierClass="Button--light_yellow"><p>❤</p></Button>
                 </div>
                 <div className={classes["AboutUs__repo-link"]}>
-                <h2>Melvin Aguilar</h2>
-                <a href="https://github.com/MelvinAguilar" target="_blank"  rel="noreferrer noopener">MelvinAguilar</a>
+                <h2>Andrea Rodríguez</h2>
+                <a href="https://github.com/Andrea-09" target="_blank"  rel="noreferrer noopener">Andrea-09</a>
                 </div>
                 </div>
                 <div className={classes["AboutUs__text"]}>
@@ -151,8 +145,8 @@ const AboutUsView = ({ className, ...rest }) => {
                   <Button modifierClass="Button--baby_blue"><p>❤</p></Button>
                 </div>
                 <div className={classes["AboutUs__repo-link"]}>
-                <h2>Henry Escobar</h2>
-                <a href="https://github.com/HenryLima07" target="_blank"  rel="noreferrer noopener">HenryLima07</a>
+                <h2>Stanley Hurtado</h2>
+                <a href="https://github.com/" target="_blank"  rel="noreferrer noopener">StanleyHurtado</a>
                 </div>
                 </div>
                
@@ -175,7 +169,7 @@ const AboutUsView = ({ className, ...rest }) => {
            
         </section>
       </main>
-            <Footer></Footer>
+            
     </>
   );
 };

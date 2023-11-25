@@ -15,6 +15,7 @@ import { UseAuthContext } from "./contexts/authContext";
 import { toast } from "react-toastify";
 
 import { useEffect, useState } from "react";
+import AboutUsView from "./views/AboutUsView/AboutUsView";
 
 function App() {
   const { user } = UseAuthContext();
@@ -36,6 +37,7 @@ function App() {
       <Route path="/place/:placeId" element={<PlaceView />} />
       <Route path="/cart" element={<ShoppingCartView />} />
       <Route path="/trips/*" element={<TripsView />} />
+      <Route path="/about-us" element={<AboutUsView />} />
       <Route path="*" element={<NotFoundView />} />
 
       {user && user.roles.includes("admin") && (
