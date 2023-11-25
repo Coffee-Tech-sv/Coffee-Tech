@@ -7,7 +7,7 @@ const ItemContainer =({adventureData, moreInformationData, eventHandler, _key})=
         <div className={classes["item-information-section"]}>
             {<Adventure itemInformation={adventureData}/>
             }
-            <h2>Info de tu trip</h2>
+            <h2>Información sobre la sala</h2>
             {<MoreInformationContainer itemInformation={moreInformationData}/>
             }
             <button data-delete={_key} onClick={eventHandler}>Eliminar</button>

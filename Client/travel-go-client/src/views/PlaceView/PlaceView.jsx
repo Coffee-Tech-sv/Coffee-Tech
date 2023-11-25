@@ -85,7 +85,7 @@ const PlaceView = () => {
                     <BookingSection placeInformation={place}/>
 
                     <hr/>
-                    { user 
+                    {/* { user 
                         ? <CommentsForm user={user} onAddComment={onAddCommentHandler} />
                         : <p>Debes iniciar sesión para comentar</p>
                     }
@@ -94,7 +94,7 @@ const PlaceView = () => {
                         commentsInformation = {comments} 
                         cant_comentarios = {place.cant_comentarios} 
                         puntuacion_prom = {place.puntuacion_prom}
-                    />
+                    /> */}
                 </Container>
             </main>
             <Footer/>

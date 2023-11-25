@@ -18,7 +18,7 @@ const NotFoundView = () => {
           Parece que algo salió mal.
         </h1>
         <p className={classes.ErrorContainer__text}>
-          Pero no te preocupes, tenemos varios trips hechos con 
+          Pero no te preocupes, tenemos muchas sorpresas hechos con 
           <span className="sr-only">el corazón</span>
           <HeartFill fill="#FF5A5F" className={classes.ErrorContainer__heart} />
           solo para ti.

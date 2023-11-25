@@ -16,10 +16,10 @@ const Places = ({ trips = [] }) => {
 
   return (
     <section className={classes["Places"]}>
-      <h2 className="sr-only">Lista de lugares turísticos</h2>
+      <h2 className="sr-only">Lista de salas disponibles</h2>
       <div className={classes["Places__container"]}>
         {trips && trips.length > 0 ? mappedPlaces : (
-          <p>No hay lugares turísticos disponibles</p>
+          <p>No hay servicios disponibles</p>
         )}
       </div>
     </section>

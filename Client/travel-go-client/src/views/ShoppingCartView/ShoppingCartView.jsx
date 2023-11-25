@@ -147,7 +147,7 @@ const ShoppingCartView = ()=>{
                 </div>
 
                 <section className={classes["shopping-cart-items"]}>
-                    <h2 className="sr-only">Tus trips</h2>
+                    <h2 className="sr-only">Sala seleccionada</h2>
                         { (elements !== undefined) ? mappedShoppingCart(elements) : <p className={classes["empty-cart"]}>No hay elementos en el carrito</p> }
                 </section>
 

@@ -1,4 +1,5 @@
 import classes from "./SignupView.module.scss";
+import logo from "../../assets/coffeeTech-long.png"
 import SignupForm from "../../components/SignupForm/SignupForm";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowLeft } from "react-bootstrap-icons";
@@ -23,7 +24,7 @@ const SignupView = () => {
           Regresar a inicio
         </Link>
         
-        <h2>Registrarse</h2>
+        <img src={logo} alt="" aria-hidden="true" />
         <p>Llena tus datos para registrate</p>
         <SignupForm />
 

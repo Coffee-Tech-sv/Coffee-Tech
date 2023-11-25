@@ -1,39 +1,27 @@
 import classes from "./BookingServices.module.scss";
 import BookingServicesContainer from "./BookingServiceContainer/BookingServiceContainer";
-import {MoonStars, Camera2, Sun, TruckFront, Tree, CupStraw} from "react-bootstrap-icons";
+import {Pencil, Laptop, People, Projector, Wifi, CupStraw} from "react-bootstrap-icons";
 
 
 const imagePicker = (service)=>{
     let image = "";
     switch (service){
-        case "vista a la montaña":
-            //image = <MoonStars/>
+        case "Internet":
+            image = <Wifi/>;
             break;
-        case "escalar" || "montaña":
-            //image = <MoonStars/>
+        case "Computadora":
+            image = <Laptop/>;
             break;
-        case "natación" || "balneario":
-            //image = <MoonStars/>
+        case "Pizarra":
+            image = <Pencil/>;
             break;
-        case "acampar":
-            //image = <MoonStars/>
+        case "Coworking":
+            image = <People/>;
             break;
-        case "fotografía":
-            image = <Camera2/>;
+        case "Proyectores":
+            image = <Projector/>;
             break;
-        case "estadia":
-            image = <MoonStars/>;
-            break;
-        case "soleado" || "playa":
-            image = <Sun/>;
-            break;
-        case "transporte":
-            image = <TruckFront/>;
-            break;
-        case "naturaleza" || "campo":
-            image = <Tree/>;
-            break;
-        case "comida" || "bebida":
+        case "comida":
             image = <CupStraw/>;
             break;
     }
