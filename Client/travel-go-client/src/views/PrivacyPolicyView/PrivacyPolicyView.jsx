@@ -57,7 +57,7 @@ const PrivacyPolicyView = ({ className, ...rest }) => {
           <h2 className={classes["Privacy-policy__subtitle"]}>Ten en cuenta</h2>
 
           <p>
-          TRAVELGO Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.
+          CoffeTech Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.
           </p>
         </section>
       </main>

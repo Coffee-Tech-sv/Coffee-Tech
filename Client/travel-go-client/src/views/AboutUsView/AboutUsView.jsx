@@ -56,23 +56,23 @@ const AboutUsView = ({ className, ...rest }) => {
             
             <div className={classes["AboutUs__content-values"]}>
                <div className={classes["AboutUs__values"]}>
-                <b><span>Comunidad y Medio Ambiente</span></b>
+                <b><span>Comunidad</span></b>
                 <br></br>
-                <p>Buscamos generar un impacto social a través del  turismo, nuestro objetivo principal es incrementar la actividad turística en la región.
+                <p>Nuestro objetivo es ofrecer a la comunidad estudiantil y de empleados un espacio fuera de casa en el que puedan desempeñar sus tareas diarias para poder salir de la rutina de encierro.
                 </p>
                 <b><span>Satisfacción del consumidor</span></b>
                 <br></br>
-                <p>Buscamos generar un impacto social a través del  turismo, nuestro objetivo principal es incrementar la actividad turística en la región.
+                <p>Contamos con una cafetería que es de consumo 100% local, con una satisfacción garantizada de sabor para nuestros clientes.
                 </p>
               </div>
               <div className={classes["AboutUs__values"]}>
                 <b><span>Experiencia de servicio 360</span></b>
                 <br></br>
-                <p>Buscamos generar un impacto social a través del  turismo, nuestro objetivo principal es incrementar la actividad turística en la región.
+                <p>Buscamos ofrecer un servicio personalizado para cada necesidad de trabajo que necesites, ya sea en coworking o tu solo, con áreas específicas para cada tipo de trabajo.
                 </p>
-                <b><span>Innovación y diversidad</span></b>
+                <b><span>Innovación</span></b>
                 <br></br>
-                <p>Buscamos generar un impacto social a través del  turismo, nuestro objetivo principal es incrementar la actividad turística en la región.
+                <p>Somos innovadores con nuestro servicio trendy y acogedor, queremos ser tu primera opción al salir de casa para continuar con tus trabajos o simplemente pasar tiempo de calidad contigo mismo.
                 </p>
               </div>
 

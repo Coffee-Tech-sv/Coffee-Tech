@@ -82,7 +82,8 @@ const LandingView = () => {
           </MenuContainer>
 
           <a
-            href="https://heyzine.com/flip-book/427a255f06.html"
+            className={classes["custom-link"]}
+            href="https://heyzine.com/flip-book/1b466eeb86.html"
             target="_blank"
             rel="noopener noreferrer"
           >

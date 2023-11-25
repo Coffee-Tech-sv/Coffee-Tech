@@ -97,7 +97,7 @@ const PlaceView = () => {
                     /> */}
                 </Container>
             </main>
-            <Footer/>
+           
         </>
         
     );

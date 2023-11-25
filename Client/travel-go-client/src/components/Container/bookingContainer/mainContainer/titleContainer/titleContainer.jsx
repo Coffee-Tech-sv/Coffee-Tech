@@ -27,14 +27,14 @@ const titleContainer = ({title, _id})=>{
         <div className={classes["title-section"]}>
             <div>
                 <h1>{title}</h1>
-                <h2>El Salvador, un lugar escondido en Centroamérica</h2>
+                <h2>Coffe Tech, un lugar escondido en El Salvador</h2>
             </div>
             <div>
                 <RWebShare
                     data={{
                         text: title,
                         url: window.location.href,
-                        title: "Travel Go"
+                        title: "Coffe Tech"
                     }}
                 >
                     <button className={classes["share-button"]}>
